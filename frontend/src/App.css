@@ -1,0 +1,31 @@
+app{
+  background-image: center;
+}
+
+.img-container{
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.div-img-top{
+  width: 100%; 
+  margin: auto;
+}
+
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  background-color:lightblue;
+}
+/* Your existing CSS styles */
+/* ... */
+
+/* Add new styles for the wrapper div */
+.body {
+  height: 100vh; /* Set a specific height for the wrapper */
+  display: flex; /* Use Flexbox to center the component */
+  justify-content: center;
+  align-items: center;
+}
+
